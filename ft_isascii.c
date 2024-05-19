@@ -6,7 +6,7 @@
 /*   By: flverge <flverge@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:33 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:02:24 by flverge          ###   ########.fr       */
+/*   Updated: 2024/05/21 13:31:01 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,5 @@
 
 int	ft_isascii(int i)
 {
-	if (i >= 0 && i <= 127)
-		return (1);
-	return (0);
+		// code moi 
 }
