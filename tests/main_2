@@ -1,0 +1,47 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main_2                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: flverge <flverge@student.42perpignan.fr    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/05/19 17:15:15 by flverge           #+#    #+#             */
+/*   Updated: 2024/05/19 17:17:25 by flverge          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <stdio.h>
+#include <ctype.h>
+#include "../libft.h"
+
+int main(void) {
+	char c = 'A';
+
+	// Testing ft_isdigit
+	printf("Testing ft_isdigit:\n");
+	printf("ft_isdigit('%c') = %d\n", c, ft_isdigit(c));
+	printf("isdigit('%c') = %d\n", c, isdigit(c));
+	printf("\n");
+
+	// Testing ft_isalnum
+	printf("Testing ft_isalnum:\n");
+	printf("ft_isalnum('%c') = %d\n", c, ft_isalnum(c));
+	printf("isalnum('%c') = %d\n", c, isalnum(c));
+	printf("\n");
+
+	// Testing ft_isalpha
+	printf("Testing ft_isalpha:\n");
+	printf("ft_isalpha('%c') = %d\n", c, ft_isalpha(c));
+	printf("isalpha('%c') = %d\n", c, isalpha(c));
+	printf("\n");
+
+	// Testing ft_isascii
+	printf("Testing ft_isascii:\n");
+	printf("ft_isascii('%c') = %d\n", c, ft_isascii(c));
+	printf("isascii('%c') = %d\n", c, isascii(c));
+	printf("\n");
+
+	
+
+	return 0;
+}
