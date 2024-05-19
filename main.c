@@ -6,12 +6,13 @@
 /*   By: flverge <flverge@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:10:19 by flverge           #+#    #+#             */
-/*   Updated: 2024/05/19 16:27:21 by flverge          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:29:10 by flverge          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "libft.h"
 
 int main(void) {
 	const char *str = "42";
