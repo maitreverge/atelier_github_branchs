@@ -6,7 +6,7 @@
 /*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:33:44 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:00:38 by dsylvain         ###   ########.fr       */
+/*   Updated: 2024/05/19 16:22:27 by dsylvain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,5 @@ int	ft_atoi(const char *str)
 		res = (str[i] - '0') + (res * 10);
 		i++;
 	}
-	return (res * neg);
+	return (res / neg);
 }
