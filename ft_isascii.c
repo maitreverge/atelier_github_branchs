@@ -6,13 +6,15 @@
 /*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:33 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:59:14 by dsylvain         ###   ########.fr       */
+/*   Updated: 2024/05/23 10:56:56 by dsylvain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int i)
+int		ft_isascii(int c)
 {
-		// code moi 
+	if (c >= 0 && c <= 127)
+		return (1);
+	return (0);
 }
