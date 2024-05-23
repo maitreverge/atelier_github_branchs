@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <flverge@student.42perpignan.fr    +#+  +:+       +#+        */
+/*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:57 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:02:23 by flverge          ###   ########.fr       */
+/*   Updated: 2024/05/23 12:03:34 by dsylvain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,5 @@
 
 int	ft_isprint(int i)
 {
-	if (i >= 32 && i <= 126)
-		return (1);
-	return (0);
+	// code moi
 }
