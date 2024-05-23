@@ -1,1 +1,1 @@
-cd .. && make re && gcc -Wall -Wextra -Werror tests/main_1.c libft.a -o prog_1 && ./prog_1
+cd .. && make re && gcc tests/main_1.c libft.a -o prog_1 && ./prog_1
