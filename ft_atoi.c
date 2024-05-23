@@ -6,7 +6,7 @@
 /*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:33:44 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/23 14:39:14 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/05/23 14:45:32 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,5 @@ int	ft_atoi(const char *str)
 		res = (str[i] - '0') + (res * 10);
 		i++;
 	}
-<<<<<<< HEAD
-	return (res - neg);
-=======
-	return (res + neg);
->>>>>>> origin/legion_du_feu
+	return (res * neg);
 }
