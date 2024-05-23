@@ -6,13 +6,24 @@
 /*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:33 by prossi            #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2024/05/23 10:25:17 by dsylvain         ###   ########.fr       */
+=======
+/*   Updated: 2024/05/23 10:56:56 by dsylvain         ###   ########.fr       */
+>>>>>>> tribu_de_l_eau
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int i)
+int		ft_isascii(int c)
 {
+<<<<<<< HEAD
 		// code moi 
 }
+=======
+	if (c >= 0 && c <= 127)
+		return (1);
+	return (0);
+}
+>>>>>>> tribu_de_l_eau

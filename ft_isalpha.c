@@ -6,15 +6,18 @@
 /*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:22 by prossi            #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2024/05/23 10:25:20 by dsylvain         ###   ########.fr       */
+=======
+/*   Updated: 2024/05/23 10:58:05 by dsylvain         ###   ########.fr       */
+>>>>>>> tribu_de_l_eau
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-int	ft_isalpha(int i)
+int	ft_isalpha(int c)
 {
-	if (('a' <= i && i <= 'z') || ('A' <= i && i <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	return (0);
 }
