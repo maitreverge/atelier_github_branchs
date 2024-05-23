@@ -1,0 +1,1 @@
+cd .. && make re && gcc tests/main_2.c libft.a -o prog_2 && ./prog_2

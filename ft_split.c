@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: prossi <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/13 11:59:10 by prossi            #+#    #+#             */
-/*   Updated: 2021/09/20 19:17:53 by prossi           ###   ########.fr       */
+/*   Updated: 2024/05/23 14:40:44 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,14 +102,14 @@ char	**ft_split(char const *str, char c)
 	if (strs == NULL)
 		return (NULL);
 	strs[j] = NULL;
-	while (i < j)
-	{
-		strs[i] = ft_stralloc(((char *)str), c, &pos);
-		if (strs[i] == NULL)
-		{
-			ft_freeup(strs[i]);
-		}
-		i++;
-	}
+	// while (i < j)
+	// {
+	// 	strs[i] = ft_stralloc(((char *)str), c, &pos);
+	// 	if (strs[i] == NULL)
+	// 	{
+	// 		ft_freeup(strs[i]);
+	// 	}
+	// 	i++;
+	// }
 	return (strs);
 }
