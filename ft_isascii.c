@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:33 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:59:14 by dsylvain         ###   ########.fr       */
+/*   Updated: 2024/05/23 15:12:09 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 int	ft_isascii(int i)
 {
-		// code moi 
+	if (i >= 0 && i <= 127)
+		return (1);
+	return (0);
 }

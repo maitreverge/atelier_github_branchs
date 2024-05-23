@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:22 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:57:29 by dsylvain         ###   ########.fr       */
+/*   Updated: 2024/05/23 15:10:30 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 int	ft_isalpha(int i)
 {
-	// code moi.
+	if ((i >= 'a' && i <= 'z') || (i >= 'A' && i <= 'Z'))
+		return (1);
+	return (0);
 }
