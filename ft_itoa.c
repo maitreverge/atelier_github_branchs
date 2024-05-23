@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <flverge@student.42perpignan.fr    +#+  +:+       +#+        */
+/*   By: fbelotti <marvin@42perpignan.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/13 11:58:05 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:02:22 by flverge          ###   ########.fr       */
+/*   Updated: 2024/05/23 14:45:13 by fbelotti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 static unsigned int	ft_number_size(int number)
 {
 	unsigned int	length;
-	
+
 	length = 0;
 	if (number == 0)
 		return (1);
