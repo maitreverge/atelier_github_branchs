@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flverge <flverge@student.42perpignan.fr    +#+  +:+       +#+        */
+/*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:08 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/21 13:30:58 by flverge          ###   ########.fr       */
+/*   Updated: 2024/05/23 11:01:06 by dsylvain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 int	ft_isalnum(int i)
 {
-	// code moi 
+	if (!ft_isdigit(i) && !ft_isalpha(i))
+		return (0);
+	return (1); 
 }
