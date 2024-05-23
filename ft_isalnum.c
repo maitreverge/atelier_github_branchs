@@ -6,7 +6,7 @@
 /*   By: dsylvain <dsylvain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:35:08 by prossi            #+#    #+#             */
-/*   Updated: 2024/05/19 16:59:03 by dsylvain         ###   ########.fr       */
+/*   Updated: 2024/05/23 10:40:15 by dsylvain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 int	ft_isalnum(int i)
 {
-	// code moi 
+	if (!ft_isdigit(i) && !ft_isalpha(i))
+		return (0);
+	return (1); 
 }
